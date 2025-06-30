@@ -1,0 +1,85 @@
+<!--__________________________________________________________________________________-->
+<!--TOP OF INDEX.HTML-->
+<!DOCTYPE html>
+<html lang="en">
+<!--__________________________________________________________________________________-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="neon-green-dot-hi.png">
+    <script src="script.js"></script>
+    <title>Metro Live</title>
+</head>
+
+<!--__________________________________________________________________________________-->
+<!--BODY-->
+<body>
+  <div class="title-box">
+    <h1 class="title">
+      Metro Live
+    </h1>
+    <h1 class="description">
+      Get live updates based on metro station and suggested lines
+    </h1>
+  </div>
+
+    <datalist id="stations"></datalist>
+    <ul id="trainPredictions"></ul>
+
+    <div class="container">
+      <div class="input-layout">
+          <label class="input-title">From</label>
+          <input type="text" class="input" id="inputFrom" list="stations">
+      </div>
+      <div class="input-layout">
+          <label class="input-title">To</label>
+          <input type="text" class="input" id="inputTo" list="stations">
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="block">
+        <p id="pred1" class="block-outline">
+          
+        </p>
+      </div>
+      <div class="block">
+        <p id="pred2" class="block-outline">
+          
+        </p>
+      </div>
+      <div class="block">
+        <p id="pred3" class="block-outline">
+          
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="stats-box">
+        <p>
+          
+        </p>
+      </div>
+      <div class="stats-box">
+        <p>
+
+        </p>
+      </div>
+    </div>
+<!--
+    <button onclick="fetchRailLines()">Load Rail Lines</button>
+    <div id="rail-results"></div>\
+-->
+
+<!--__________________________________________________________________________________-->
+<!--EVENTS JAVASCRIPT SCRIPT-->
+<script>
+document.getElementById("inputFrom").addEventListener("change", function() {
+    fetchStationPredictions();
+  });
+</script>
+</body>
+</html>
+<!--__________________________________________________________________________________-->

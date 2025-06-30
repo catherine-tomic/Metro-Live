@@ -1,0 +1,122 @@
+/*_____________________________________________________________________________________*/
+/* BACKGROUND */
+body {
+    background-image: url('dc_metro.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*_____________________________________________________________________________________*/
+/* TITLE */
+.title-box {
+    background-color: black;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
+    border-radius: 25px 0px 25px 0px;
+}
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    font-family: 'Andale Mono', monospace;
+}
+
+.description {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: 'Andale Mono', monospace;
+}
+
+/*_____________________________________________________________________________________*/
+/* STATION INPUT */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 64px; 
+    margin-top: 64px;
+}
+
+.input-box {
+    background-color: black;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
+}
+
+.input-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 30%;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
+}
+
+.input {
+    width: 75%;
+    background-color: gray;
+    margin: 5%;
+    font-family: 'Andale Mono', monospace;
+    font-size: 20px;
+    color: white;
+}
+
+.input-title {
+    display: block;
+    color: white;
+    font-family: 'Andale Mono', monospace;
+    font-size: 25px;
+    padding-top: 5%;
+}
+
+/*_____________________________________________________________________________________*/
+/* TRAIN ARRIVALS */
+.block-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 30%;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 30%;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
+    height: 50px;
+    width: 500px;
+}
+
+@media screen and (min-width: 1300px) {
+    .block {
+        width: 400px;
+    }
+}
+
+.block-outline {
+    color: white;
+}
+
+/*_____________________________________________________________________________________*/
+/* STATS */
+.stats-block {
+    background-color: black;
+    width: 30%;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
+}
