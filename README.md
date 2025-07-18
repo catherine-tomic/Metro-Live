@@ -38,9 +38,10 @@ The primary goal of this project is to design and deploy a fully serverless, sec
 ## Folder Structure
 ```
 |
-|--- index.html
-|--- style.css
-|--- script.js
+|--- deploy/
+|    |--- index.html
+|    |---style.css
+|    |--- script.js
 |--- .github/workflows/
 |    |--- deploy.yml
 |--- README.md
