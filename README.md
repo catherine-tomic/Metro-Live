@@ -36,6 +36,7 @@ The primary goal of this project is to design and deploy a fully serverless, sec
 - Optimized deployment by ignoring unnecessary files during sync to reduce upload time and storage usage
 
 ## Folder Structure
+```
 |
 |--- index.html
 |--- style.css
@@ -43,3 +44,4 @@ The primary goal of this project is to design and deploy a fully serverless, sec
 |--- .github/workflows/
 |    |--- deploy.yml
 |--- README.md
+```
