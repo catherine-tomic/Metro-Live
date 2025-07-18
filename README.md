@@ -37,7 +37,7 @@ The primary goal of this project is to design and deploy a fully serverless, sec
 
 ## Folder Structure
 ```
-|
+metro-live/
 |--- deploy/
 |    |--- index.html
 |    |---style.css
