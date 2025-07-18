@@ -40,7 +40,7 @@ The primary goal of this project is to design and deploy a fully serverless, sec
 metro-live/
 |--- deploy/
 |    |--- index.html
-|    |---style.css
+|    |--- style.css
 |    |--- script.js
 |--- .github/workflows/
 |    |--- deploy.yml
