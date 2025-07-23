@@ -21,7 +21,6 @@ The primary goal of this project is to design and deploy a fully serverless, sec
   - AWS WAF (Security filtering)
   - API Gateway (Routing to Lambda)
   - AWS Lambda (Serverless backend logic)
-  - AWS Secrets Manager (Secure API key storage)
 - **CI/CD:** GitHub Actions (Deploy to S3 & CloudFront cache invalidation)
 
 ## Features
@@ -30,7 +29,6 @@ The primary goal of this project is to design and deploy a fully serverless, sec
 - Custom domain secured with **HTTPS** using **Route 53** and SSL certificate
 - Automatic redirection from HTTP to HTTPS for secure access
 - Serverless backend powered by **API Gateway & Lambda**
-- Secrets stored securely with **AWS Secrets Manager**
 - Protection against common web exploits with **AWS WAF**
 - Seamless deployment with **GitHub Actions** CI/CD pipeline
 - Optimized deployment by ignoring unnecessary files during sync to reduce upload time and storage usage
