@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+  --color-metro-red: #BF0D3E; 
+  --color-metro-orange: #ED8B00;
+  --color-metro-yellow: #FFD100; 
+  --color-metro-green: #00B140; 
+  --color-metro-blue: #009CDE; 
+  --color-metro-silver: #919D9D;
+}
